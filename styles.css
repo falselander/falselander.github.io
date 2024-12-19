@@ -95,7 +95,5 @@ p {
 
 .gallery img:hover {
   transform: scale(2);
-  width: 200px; /* Set the width */
-  height: auto; /* Let the height adjust automatically */
   object-fit: contain;
 }
