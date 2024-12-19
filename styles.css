@@ -4,10 +4,11 @@ body {
   margin: 0;
   padding: 0;
   color: #ffffff;
-  background-image: url("https://falselander.github.io/DSC00134.png");
+  background-image: url("./DSC00134.png");
   background-color: #f8f8f8;
   background-repeat: no-repeat; /* Prevents the background from repeating */
   background-position: center; /* Centers the background image */
+  background-size: cover;
 }
 
 /* Navigation Bar */
