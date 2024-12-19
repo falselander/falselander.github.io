@@ -94,8 +94,8 @@ p {
 }
 
 .gallery img:hover {
-  transform: scale(1.5);
-  width: 400px; /* Set the width */
+  transform: scale(2);
+  width: 200px; /* Set the width */
   height: auto; /* Let the height adjust automatically */
-  object-fit: cover;
+  object-fit: contain;
 }
