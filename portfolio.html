@@ -13,6 +13,19 @@
       background-position: center;
       background-size: cover;
     }
+    .gallery img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+        transform: scale(2);
+        object-fit: contain;
+    }
   </style>
 </head>
 <body>
@@ -27,7 +40,7 @@
 
     <h2>Ceramics</h2>
     <div class="gallery">
-        
+
       <img src="Website Portfolio/Ceramics/52479304-3DC5-4D5A-B500-275163F38A24.JPG" alt="Artwork 1">
       <img src="Website Portfolio/Ceramics/IMG_0773.jpg" alt="Artwork 2">
       <img src="Website Portfolio/Ceramics/IMG_0787.jpeg" alt="Artwork 3">
